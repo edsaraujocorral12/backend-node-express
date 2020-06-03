@@ -11,6 +11,7 @@
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "devDependencies": {
+    "eslint": "^7.1.0",
     "nodemon": "^2.0.4",
     "sucrase": "^3.15.0"
   }
