@@ -11,8 +11,12 @@
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
     "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
     "sucrase": "^3.15.0"
   }
 }
