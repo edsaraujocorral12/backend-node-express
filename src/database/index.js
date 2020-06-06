@@ -1,11 +1,11 @@
 import Sequelize from 'sequelize';
 import User from '../app/models/User';
 import File from '../app/models/File';
-import Appointments from '../app/models/Appointments';
+import Appointment from '../app/models/Appointments';
 
 import databaseConfig from '../config/database';
 
-const models = [User, File, Appointments];
+const models = [User, File, Appointment];
 
 
 class DataBase {
